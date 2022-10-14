@@ -1,0 +1,518 @@
+
+@cos-red-0: #ff4242;
+@cos-red\+1: #e41818;
+@cos-red-1: #ff7171;
+@cos-red-5: #fff7f7;
+@cos-red-4: #ffebeb;
+@cos-red-3: #ffcece;
+@cos-red-2: #ffa3a3;
+@cos-red\+2: #bd0f0f;
+@cos-red\+3: #9b1414;
+@cos-red\+4: #7b1010;
+@cos-red\+5: #5b0c0c;
+@cos-orange-5: #ffffff;
+@cos-orange-4: #ffeee9;
+@cos-orange-3: #ffd6c8;
+@cos-orange-2: #ffb197;
+@cos-orange-1: #ff875e;
+@cos-orange-0: #ff5e29;
+@cos-orange\+1: #e43900;
+@cos-orange\+2: #bd2f00;
+@cos-orange\+3: #9b2801;
+@cos-orange\+4: #7b2001;
+@cos-orange\+5: #5b1701;
+@cos-tan-5: #fff7ef;
+@cos-tan-4: #ffeddc;
+@cos-tan-3: #ffd8b1;
+@cos-tan-2: #ffbc79;
+@cos-tan-1: #ff9f3f;
+@cos-tan-0: #ff870f;
+@cos-tan\+1: #d26900;
+@cos-tan\+2: #ac5600;
+@cos-tan\+3: #924900;
+@cos-tan\+4: #753b00;
+@cos-tan\+5: #572b00;
+@cos-amber-5: #fffbee;
+@cos-amber-4: #fff6d9;
+@cos-amber-3: #ffeaac;
+@cos-amber-2: #ffdb70;
+@cos-amber-1: #ffcc33;
+@cos-amber-0: #f5b700;
+@cos-amber\+1: #c99700;
+@cos-amber\+2: #a57c00;
+@cos-amber\+3: #8c6900;
+@cos-amber\+4: #715400;
+@cos-amber\+5: #533e00;
+@cos-yellow-5: #fffeee;
+@cos-yellow-4: #fffcd9;
+@cos-yellow-3: #fff8ac;
+@cos-yellow-2: #fff370;
+@cos-yellow-1: #ffee33;
+@cos-yellow-0: #e4d100;
+@cos-yellow\+1: #bbac00;
+@cos-yellow\+2: #998d00;
+@cos-yellow\+3: #837800;
+@cos-yellow\+4: #696000;
+@cos-yellow\+5: #4e4700;
+@cos-lime-5: #fbffee;
+@cos-lime-4: #f5ffd9;
+@cos-lime-3: #eaffac;
+@cos-lime-2: #dbff70;
+@cos-lime-1: #bff030;
+@cos-lime-0: #99cc00;
+@cos-lime\+1: #7da800;
+@cos-lime\+2: #678900;
+@cos-lime\+3: #587500;
+@cos-lime\+4: #465e00;
+@cos-lime\+5: #344600;
+@cos-verdure-5: #f6ffee;
+@cos-verdure-4: #ecffd9;
+@cos-verdure-3: #d6ffac;
+@cos-verdure-2: #b8ff70;
+@cos-verdure-1: #90f030;
+@cos-verdure-0: #66cc00;
+@cos-verdure\+1: #54a800;
+@cos-verdure\+2: #458900;
+@cos-verdure\+3: #3b7500;
+@cos-verdure\+4: #2f5e00;
+@cos-verdure\+5: #234600;
+@cos-green-5: #eeffee;
+@cos-green-4: #d9ffd9;
+@cos-green-3: #acffac;
+@cos-green-2: #6ffc6f;
+@cos-green-1: #2cde2c;
+@cos-green-0: #00bd00;
+@cos-green\+1: #009b00;
+@cos-green\+2: #007f00;
+@cos-green\+3: #006c00;
+@cos-green\+4: #005700;
+@cos-green\+5: #004000;
+@cos-virid-5: #eefff6;
+@cos-virid-4: #d9ffec;
+@cos-virid-3: #aafcd3;
+@cos-virid-2: #69efac;
+@cos-virid-1: #2ad27e;
+@cos-virid-0: #00b359;
+@cos-virid\+1: #009349;
+@cos-virid\+2: #00783c;
+@cos-virid\+3: #006633;
+@cos-virid\+4: #005229;
+@cos-virid\+5: #003d1e;
+@cos-teal-5: #eefffb;
+@cos-teal-4: #d9fff5;
+@cos-teal-3: #aafce7;
+@cos-teal-2: #2ad2a8;
+@cos-teal-1: #00b385;
+@cos-teal-0: #00b385;
+@cos-teal\+1: #00936e;
+@cos-teal\+2: #00785a;
+@cos-teal\+3: #00664d;
+@cos-teal\+4: #00523d;
+@cos-teal\+5: #003d2d;
+@cos-cyan-5: #eeffff;
+@cos-cyan-4: #d9ffff;
+@cos-cyan-3: #aafcfc;
+@cos-cyan-2: #69efef;
+@cos-cyan-1: #2ad2d2;
+@cos-cyan-0: #00b3b3;
+@cos-cyan\+1: #009393;
+@cos-cyan\+2: #007878;
+@cos-cyan\+3: #006666;
+@cos-cyan\+4: #005252;
+@cos-cyan\+5: #003d3d;
+@cos-ocean-5: #f4fcff;
+@cos-ocean-4: #e4f8ff;
+@cos-ocean-3: #bdeeff;
+@cos-ocean-2: #83e0ff;
+@cos-ocean-1: #3bbeeb;
+@cos-ocean-0: #009dd1;
+@cos-ocean\+1: #008cbc;
+@cos-ocean\+2: #00749c;
+@cos-ocean\+3: #006080;
+@cos-ocean\+4: #004c65;
+@cos-ocean\+5: #00384b;
+@cos-sky-5: #f4faff;
+@cos-sky-4: #e5f2ff;
+@cos-sky-3: #bfdfff;
+@cos-sky-2: #85c2ff;
+@cos-sky-1: #44a1ff;
+@cos-sky-0: #0582ff;
+@cos-sky\+1: #0072e4;
+@cos-sky\+2: #005fbd;
+@cos-sky\+3: #004e9b;
+@cos-sky\+4: #003e7b;
+@cos-sky\+5: #002e5b;
+@cos-blue-5: #f8f9ff;
+@cos-blue-4: #eaefff;
+@cos-blue-3: #cad8ff;
+@cos-blue-2: #9cb4ff;
+@cos-blue-1: #668cff;
+@cos-blue-0: #3366ff;
+@cos-blue\+1: #1f50e4;
+@cos-blue\+2: #1741bd;
+@cos-blue\+3: #16379b;
+@cos-blue\+4: #132d7b;
+@cos-blue\+5: #0e215b;
+@cos-indigo-5: #f8f8ff;
+@cos-indigo-4: #ececff;
+@cos-indigo-3: #d0d0ff;
+@cos-indigo-2: #a5a5ff;
+@cos-indigo-1: #7575ff;
+@cos-indigo-0: #4747ff;
+@cos-indigo\+1: #3232e4;
+@cos-indigo\+2: #2828bd;
+@cos-indigo\+3: #23239b;
+@cos-indigo\+4: #1d1d7b;
+@cos-indigo\+5: #16165b;
+@cos-dutch-5: #f9f8ff;
+@cos-dutch-4: #efeaff;
+@cos-dutch-3: #d8caff;
+@cos-dutch-2: #b49cff;
+@cos-dutch-1: #8c66ff;
+@cos-dutch-0: #6633ff;
+@cos-dutch\+1: #501fe4;
+@cos-dutch\+2: #4117bd;
+@cos-dutch\+3: #37169b;
+@cos-dutch\+4: #2d137b;
+@cos-dutch\+5: #210e5b;
+@cos-purple-5: #fbf7ff;
+@cos-purple-4: #f3e7ff;
+@cos-purple-3: #e1c3ff;
+@cos-purple-2: #c68dff;
+@cos-purple-1: #a74fff;
+@cos-purple-0: #8a14ff;
+@cos-purple\+1: #7301e4;
+@cos-purple\+2: #5f00bd;
+@cos-purple\+3: #4f029b;
+@cos-purple\+4: #3f037b;
+@cos-purple\+5: #2f025b;
+@cos-violet-5: #fff4ff;
+@cos-violet-4: #ffe4ff;
+@cos-violet-3: #ffbdff;
+@cos-violet-2: #ff83ff;
+@cos-violet-1: #f03cf0;
+@cos-violet-0: #d600d6;
+@cos-violet\+1: #c000c0;
+@cos-violet\+2: #9f009f;
+@cos-violet\+3: #830083;
+@cos-violet\+4: #680068;
+@cos-violet\+5: #4d004d;
+@cos-fuchsia-5: #fff4fc;
+@cos-fuchsia-4: #ffe4f8;
+@cos-fuchsia-3: #ffbdee;
+@cos-fuchsia-2: #ff83e0;
+@cos-fuchsia-1: #ff40cf;
+@cos-fuchsia-0: #f500b7;
+@cos-fuchsia\+1: #db00a4;
+@cos-fuchsia\+2: #b60088;
+@cos-fuchsia\+3: #950070;
+@cos-fuchsia\+4: #760059;
+@cos-fuchsia\+5: #580042;
+@cos-cherry-5: #fff5fa;
+@cos-cherry-4: #ffe7f3;
+@cos-cherry-3: #ffc4e1;
+@cos-cherry-2: #ff8fc7;
+@cos-cherry-1: #ff53a9;
+@cos-cherry-0: #ff1a8c;
+@cos-cherry\+1: #e40072;
+@cos-cherry\+2: #bd005f;
+@cos-cherry\+3: #9b004e;
+@cos-cherry\+4: #7b003e;
+@cos-cherry\+5: #5b002e;
+@cos-pink-5: #fff6f9;
+@cos-pink-4: #ffeaef;
+@cos-pink-3: #ffcad8;
+@cos-pink-2: #ff9cb4;
+@cos-pink-1: #ff668c;
+@cos-pink-0: #ff3366;
+@cos-pink\+1: #e4073e;
+@cos-pink\+2: #bd0130;
+@cos-pink\+3: #9b092d;
+@cos-pink\+4: #7b0724;
+@cos-pink\+5: #5b051b;
+@cos-gray-5: #f7f7f7;
+@cos-gray-4: #ececec;
+@cos-gray-3: #d6d6d6;
+@cos-gray-2: #b7b7b7;
+@cos-gray-1: #999999;
+@cos-gray-0: #7b7b7b;
+@cos-gray\+1: #656565;
+@cos-gray\+2: #525252;
+@cos-gray\+3: #464646;
+@cos-gray\+4: #393939;
+@cos-gray\+5: #292929;
+@cos-white: #ffffff;
+@cos-black: #000000;
+.cos-wise {
+  @cos-on-dent-red: @cos-red\+2;
+  --cos-on-dent-red: @cos-red\+2;
+  @cos-dent-red: @cos-red-4;
+  --cos-dent-red: @cos-red-4;
+  @cos-on-red: @cos-white;
+  --cos-on-red: @cos-white;
+  @cos-red: @cos-red\+1;
+  --cos-red: @cos-red\+1;
+  @cos-dent-blue: @cos-blue-4;
+  --cos-dent-blue: @cos-blue-4;
+  @cos-on-dent-blue: @cos-blue\+4;
+  --cos-on-dent-blue: @cos-blue\+4;
+  @cos-blue: @cos-blue\+1;
+  --cos-blue: @cos-blue\+1;
+  @cos-on-blue: @cos-white;
+  --cos-on-blue: @cos-white;
+  @cos-on-dent-cherry: @cos-cherry\+3;
+  --cos-on-dent-cherry: @cos-cherry\+3;
+  @cos-dent-cherry: @cos-cherry-4;
+  --cos-dent-cherry: @cos-cherry-4;
+  @cos-on-cherry: @cos-white;
+  --cos-on-cherry: @cos-white;
+  @cos-on-dent-orange: @cos-orange\+3;
+  --cos-on-dent-orange: @cos-orange\+3;
+  @cos-orange: @cos-orange-0;
+  --cos-orange: @cos-orange-0;
+  @cos-dent-orange: @cos-orange-4;
+  --cos-dent-orange: @cos-orange-4;
+  @cos-on-orange: @cos-white;
+  --cos-on-orange: @cos-white;
+  @cos-background: #f2f3f5;
+  --cos-background: #f2f3f5;
+  @cos-em: #eb3333;
+  --cos-em: #eb3333;
+  @cos-link: #1e1f24;
+  --cos-link: #1e1f24;
+  @cos-on-background: @cos-black;
+  --cos-on-background: @cos-black;
+  @cos-primary: #4e6ef2;
+  --cos-primary: #4e6ef2;
+  @cos-on-primary: @cos-white;
+  --cos-on-primary: @cos-white;
+  @cos-cherry: @cos-cherry-0;
+  --cos-cherry: @cos-cherry-0;
+  @cos-on-surface: #1e1f24;
+  --cos-on-surface: #1e1f24;
+  @cos-link-hover: #1e1f24;
+  --cos-link-hover: #1e1f24;
+  @cos-surface: #ffffff;
+  --cos-surface: #ffffff;
+  @cos-dent-surface: #f2f3f5;
+  --cos-dent-surface: #f2f3f5;
+  @cos-on-dent-surface: #848691;
+  --cos-on-dent-surface: #848691;
+  @cos-purple: @cos-purple-0;
+  --cos-purple: @cos-purple-0;
+  @cos-on-purple: @cos-white;
+  --cos-on-purple: @cos-white;
+  @cos-dent-purple: @cos-purple-4;
+  --cos-dent-purple: @cos-purple-4;
+  @cos-on-dent-purple: @cos-purple\+5;
+  --cos-on-dent-purple: @cos-purple\+5;
+  @cos-dent-primary: @cos-blue-4;
+  --cos-dent-primary: @cos-blue-4;
+  @cos-on-dent-primary: @cos-blue\+4;
+  --cos-on-dent-primary: @cos-blue\+4;
+}
+
+.cos-text-on-dent-red {color: --cos-on-dent-red;}
+.cos-border-on-dent-red {border-color: --cos-on-dent-red;}
+
+.cos-text-dent-red {color: --cos-dent-red;}
+.cos-bg-dent-red {background-color: --cos-dent-red;}
+.cos-border-dent-red {border-color: --cos-dent-red;}
+
+.cos-text-on-red {color: --cos-on-red;}
+.cos-border-on-red {border-color: --cos-on-red;}
+
+.cos-text-red {color: --cos-red;}
+.cos-bg-red {background-color: --cos-red;}
+.cos-border-red {border-color: --cos-red;}
+
+.cos-text-dent-blue {color: --cos-dent-blue;}
+.cos-bg-dent-blue {background-color: --cos-dent-blue;}
+.cos-border-dent-blue {border-color: --cos-dent-blue;}
+
+.cos-text-on-dent-blue {color: --cos-on-dent-blue;}
+.cos-border-on-dent-blue {border-color: --cos-on-dent-blue;}
+
+.cos-text-blue {color: --cos-blue;}
+.cos-bg-blue {background-color: --cos-blue;}
+.cos-border-blue {border-color: --cos-blue;}
+
+.cos-text-on-blue {color: --cos-on-blue;}
+.cos-border-on-blue {border-color: --cos-on-blue;}
+
+.cos-text-on-dent-cherry {color: --cos-on-dent-cherry;}
+.cos-border-on-dent-cherry {border-color: --cos-on-dent-cherry;}
+
+.cos-text-dent-cherry {color: --cos-dent-cherry;}
+.cos-bg-dent-cherry {background-color: --cos-dent-cherry;}
+.cos-border-dent-cherry {border-color: --cos-dent-cherry;}
+
+.cos-text-on-cherry {color: --cos-on-cherry;}
+.cos-border-on-cherry {border-color: --cos-on-cherry;}
+
+.cos-text-on-dent-orange {color: --cos-on-dent-orange;}
+.cos-border-on-dent-orange {border-color: --cos-on-dent-orange;}
+
+.cos-text-orange {color: --cos-orange;}
+.cos-bg-orange {background-color: --cos-orange;}
+.cos-border-orange {border-color: --cos-orange;}
+
+.cos-text-dent-orange {color: --cos-dent-orange;}
+.cos-bg-dent-orange {background-color: --cos-dent-orange;}
+.cos-border-dent-orange {border-color: --cos-dent-orange;}
+
+.cos-text-on-orange {color: --cos-on-orange;}
+.cos-border-on-orange {border-color: --cos-on-orange;}
+
+.cos-bg-background {background-color: --cos-background;}
+
+.cos-text-em {color: --cos-em;}
+.cos-bg-em {background-color: --cos-em;}
+.cos-border-em {border-color: --cos-em;}
+
+.cos-text-link {color: --cos-link;}
+.cos-bg-link {background-color: --cos-link;}
+.cos-border-link {border-color: --cos-link;}
+
+.cos-text-on-background {color: --cos-on-background;}
+.cos-border-on-background {border-color: --cos-on-background;}
+
+.cos-text-primary {color: --cos-primary;}
+.cos-bg-primary {background-color: --cos-primary;}
+.cos-border-primary {border-color: --cos-primary;}
+
+.cos-text-on-primary {color: --cos-on-primary;}
+.cos-border-on-primary {border-color: --cos-on-primary;}
+
+.cos-text-cherry {color: --cos-cherry;}
+.cos-bg-cherry {background-color: --cos-cherry;}
+.cos-border-cherry {border-color: --cos-cherry;}
+
+.cos-text-on-surface {color: --cos-on-surface;}
+.cos-border-on-surface {border-color: --cos-on-surface;}
+
+.cos-text-link-hover {color: --cos-link-hover;}
+.cos-bg-link-hover {background-color: --cos-link-hover;}
+.cos-border-link-hover {border-color: --cos-link-hover;}
+
+.cos-text-surface {color: --cos-surface;}
+.cos-bg-surface {background-color: --cos-surface;}
+.cos-border-surface {border-color: --cos-surface;}
+
+.cos-text-dent-surface {color: --cos-dent-surface;}
+.cos-bg-dent-surface {background-color: --cos-dent-surface;}
+.cos-border-dent-surface {border-color: --cos-dent-surface;}
+
+.cos-text-on-dent-surface {color: --cos-on-dent-surface;}
+.cos-border-on-dent-surface {border-color: --cos-on-dent-surface;}
+
+.cos-text-purple {color: --cos-purple;}
+.cos-bg-purple {background-color: --cos-purple;}
+.cos-border-purple {border-color: --cos-purple;}
+
+.cos-text-on-purple {color: --cos-on-purple;}
+.cos-border-on-purple {border-color: --cos-on-purple;}
+
+.cos-text-dent-purple {color: --cos-dent-purple;}
+.cos-bg-dent-purple {background-color: --cos-dent-purple;}
+.cos-border-dent-purple {border-color: --cos-dent-purple;}
+
+.cos-text-on-dent-purple {color: --cos-on-dent-purple;}
+.cos-border-on-dent-purple {border-color: --cos-on-dent-purple;}
+
+.cos-text-dent-primary {color: --cos-dent-primary;}
+.cos-bg-dent-primary {background-color: --cos-dent-primary;}
+.cos-border-dent-primary {border-color: --cos-dent-primary;}
+
+.cos-text-on-dent-primary {color: --cos-on-dent-primary;}
+.cos-border-on-dent-primary {border-color: --cos-on-dent-primary;}
+
+.cos-wise {
+  .cos-font-regular {
+    font-weight: 400;
+  }
+  .cos-font-medium {
+    font-weight: 500;
+  }
+  .cos-android .cos-font-medium {
+    font-weight: 400;
+    -webkit-text-stroke: 0.3px;
+  }
+  .cos-headline-lg {
+    .cos-font-medium();
+    font-size: 0.16rem;
+    line-height: 0.35rem;
+  }
+  .cos-headline {
+    .cos-font-medium();
+    font-size: 0.21rem;
+    line-height: 0.3rem;
+  }
+  .cos-headline-sm {
+    .cos-font-medium();
+    font-size: 0.18rem;
+    line-height: 0.24rem;
+  }
+  .cos-subtitle {
+    .cos-font-regular();
+    font-size: 0.16rem;
+    line-height: 0.22rem;
+  }
+  .cos-subtitle-sm {
+    .cos-font-regular();
+    font-size: 0.16rem;
+    line-height: 0.22rem;
+  }
+  .cos-body-lg {
+    .cos-font-regular();
+    font-size: 0.16rem;
+    line-height: 0.25rem;
+  }
+  .cos-body {
+    .cos-font-regular();
+    font-size: 0.14rem;
+    line-height: 0.23rem;
+  }
+  .cos-caption {
+    .cos-font-regular();
+    font-size: 0.12rem;
+    line-height: 0.21rem;
+  }
+  .cos-caption-sm {
+    .cos-font-regular();
+    font-size: 0.11rem;
+    line-height: 0.2rem;
+  }
+}
+.cos-wise {
+  @cos-rounded-none: 0px;
+  @cos-rounded-form: 9px;
+  @cos-rounded-image: 9px;
+  @cos-rounded-card: 12px;
+  @cos-rounded-top-card: 18px;
+  @cos-rounded-widget: 21px;
+
+  .cos-rounded-none {border-radius: 0px;}
+  .cos-rounded-form {border-radius: 9px;}
+  .cos-rounded-image {border-radius: 9px;}
+  .cos-rounded-card {border-radius: 12px;}
+  .cos-rounded-top-card {border-radius: 18px;}
+  .cos-rounded-widget {border-radius: 21px;}
+}
+.cos-wise {
+  @cos-spacing-none: 0px;
+  @cos-spacing-xxs: 2px;
+  @cos-spacing-xs: 4px;
+  @cos-spacing-sm: 6px;
+  @cos-spacing-md: 8px;
+  @cos-spacing-lg: 12px;
+  @cos-spacing-xl: 16px;
+  @cos-spacing-xxl: 18px;
+  @cos-spacing-xxxl: 20px;
+}
+
+.cos-wise {
+  .cos-mt-0 { margin-top: @cos-spacing-none; }
+  .cos-mt-text { margin-top: @cos-spacing-sm; }
+  .cos-mt-card { margin-top: @cos-spacing-md; }
+}
